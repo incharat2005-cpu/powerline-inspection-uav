@@ -44,7 +44,7 @@ Mavic2Pro {
   ]
 }
 Solid {
-  translation 8.00 0.00 0
+  translation 10.00 0.00 0
   name "tower_1"
   children [
     Pose {
@@ -73,6 +73,2514 @@ Solid {
           }
           geometry Box {
             size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  translation 50.00 0.00 0
+  name "tower_2"
+  children [
+    Pose {
+      translation 0.00 0.00 10.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.80 0.80 20.00
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.00 0.00 19.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  translation 90.00 0.00 0
+  name "tower_3"
+  children [
+    Pose {
+      translation 0.00 0.00 10.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.80 0.80 20.00
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.00 0.00 19.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  translation 130.00 0.00 0
+  name "tower_4"
+  children [
+    Pose {
+      translation 0.00 0.00 10.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.80 0.80 20.00
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.00 0.00 19.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  translation 170.00 0.00 0
+  name "tower_5"
+  children [
+    Pose {
+      translation 0.00 0.00 10.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.80 0.80 20.00
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 0.00 0.00 19.00
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.55 0.55 0.6
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span1_phase1"
+  children [
+    Pose {
+      translation 11.667 -3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 15.000 -3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 18.333 -3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 21.667 -3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 25.000 -3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 28.333 -3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 31.667 -3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 35.000 -3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 38.333 -3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 41.667 -3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 45.000 -3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 48.333 -3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span1_phase2"
+  children [
+    Pose {
+      translation 11.667 0.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 15.000 0.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 18.333 0.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 21.667 0.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 25.000 0.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 28.333 0.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 31.667 0.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 35.000 0.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 38.333 0.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 41.667 0.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 45.000 0.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 48.333 0.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span1_phase3"
+  children [
+    Pose {
+      translation 11.667 3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 15.000 3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 18.333 3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 21.667 3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 25.000 3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 28.333 3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 31.667 3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 35.000 3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 38.333 3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 41.667 3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 45.000 3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 48.333 3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span2_phase1"
+  children [
+    Pose {
+      translation 51.667 -3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 55.000 -3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 58.333 -3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 61.667 -3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 65.000 -3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 68.333 -3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 71.667 -3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 75.000 -3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 78.333 -3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 81.667 -3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 85.000 -3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 88.333 -3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span2_phase2"
+  children [
+    Pose {
+      translation 51.667 0.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 55.000 0.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 58.333 0.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 61.667 0.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 65.000 0.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 68.333 0.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 71.667 0.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 75.000 0.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 78.333 0.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 81.667 0.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 85.000 0.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 88.333 0.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span2_phase3"
+  children [
+    Pose {
+      translation 51.667 3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 55.000 3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 58.333 3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 61.667 3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 65.000 3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 68.333 3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 71.667 3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 75.000 3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 78.333 3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 81.667 3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 85.000 3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 88.333 3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span3_phase1"
+  children [
+    Pose {
+      translation 91.667 -3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 95.000 -3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 98.333 -3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 101.667 -3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 105.000 -3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 108.333 -3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 111.667 -3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 115.000 -3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 118.333 -3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 121.667 -3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 125.000 -3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 128.333 -3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span3_phase2"
+  children [
+    Pose {
+      translation 91.667 0.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 95.000 0.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 98.333 0.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 101.667 0.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 105.000 0.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 108.333 0.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 111.667 0.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 115.000 0.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 118.333 0.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 121.667 0.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 125.000 0.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 128.333 0.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span3_phase3"
+  children [
+    Pose {
+      translation 91.667 3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 95.000 3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 98.333 3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 101.667 3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 105.000 3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 108.333 3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 111.667 3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 115.000 3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 118.333 3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 121.667 3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 125.000 3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 128.333 3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span4_phase1"
+  children [
+    Pose {
+      translation 131.667 -3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 135.000 -3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 138.333 -3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 141.667 -3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 145.000 -3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 148.333 -3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 151.667 -3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 155.000 -3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 158.333 -3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 161.667 -3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 165.000 -3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 168.333 -3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span4_phase2"
+  children [
+    Pose {
+      translation 131.667 0.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 135.000 0.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 138.333 0.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 141.667 0.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 145.000 0.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 148.333 0.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 151.667 0.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 155.000 0.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 158.333 0.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 161.667 0.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 165.000 0.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 168.333 0.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "wire_span4_phase3"
+  children [
+    Pose {
+      translation 131.667 3.000 18.494
+      rotation 0 1 0 0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 135.000 3.000 17.939
+      rotation 0 1 0 0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 138.333 3.000 17.494
+      rotation 0 1 0 0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 141.667 3.000 17.161
+      rotation 0 1 0 0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 145.000 3.000 16.939
+      rotation 0 1 0 0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 148.333 3.000 16.828
+      rotation 0 1 0 0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 151.667 3.000 16.828
+      rotation 0 1 0 -0.0167
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.334 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 155.000 3.000 16.939
+      rotation 0 1 0 -0.0500
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.337 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 158.333 3.000 17.161
+      rotation 0 1 0 -0.0831
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.345 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 161.667 3.000 17.494
+      rotation 0 1 0 -0.1161
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.356 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 165.000 3.000 17.939
+      rotation 0 1 0 -0.1489
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.371 0.08 0.08
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 168.333 3.000 18.494
+      rotation 0 1 0 -0.1813
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 3.389 0.08 0.08
           }
         }
       ]

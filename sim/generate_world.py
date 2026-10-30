@@ -1,5 +1,6 @@
 """Generate the power-line inspection world for Webots."""
 from pathlib import Path
+import math
 
 HEADER = '''#VRML_SIM R2025a utf8
 
@@ -77,8 +78,54 @@ def tower(name, x, y, height=20.0, arm=6.0):
         x, y, name, post, crossarm)
 
 
+NUM_TOWERS = 5      # how many towers in the line
+SPAN = 40.0         # metres between towers
+FIRST_X = 10.0      # where the first tower stands
+WIRE_Z = 18.8       # height where wires attach, just under the crossarm
+PHASE_Y = [-3.0, 0.0, 3.0]   # sideways position of the 3 wires
+SAG = 2.0           # how far each wire hangs down in the middle (metres)
+
+
+def wire(name, x1, x2, y, z, sag=SAG, segments=12):
+    """One sagging wire from x1 to x2, made of short straight pieces."""
+    pieces = ""
+    for k in range(segments):
+        t1 = k / segments
+        t2 = (k + 1) / segments
+        xa = x1 + (x2 - x1) * t1
+        xb = x1 + (x2 - x1) * t2
+        za = z - 4 * sag * t1 * (1 - t1)
+        zb = z - 4 * sag * t2 * (1 - t2)
+        length = math.hypot(xb - xa, zb - za)
+        angle = -math.atan2(zb - za, xb - xa)
+        pieces += """    Pose {
+      translation %.3f %.3f %.3f
+      rotation 0 1 0 %.4f
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.1 0.1 0.1
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size %.3f 0.08 0.08
+          }
+        }
+      ]
+    }
+""" % ((xa + xb) / 2, y, (za + zb) / 2, angle, length)
+    return 'Solid {\n  name "%s"\n  children [\n%s  ]\n}\n' % (name, pieces)
+
+
 def main():
-    world = HEADER + tower("tower_1", 8, 0)
+    world = HEADER
+    for i in range(NUM_TOWERS):
+        world += tower("tower_%d" % (i + 1), FIRST_X + i * SPAN, 0)
+    for i in range(NUM_TOWERS - 1):
+        for j, y in enumerate(PHASE_Y):
+            name = "wire_span%d_phase%d" % (i + 1, j + 1)
+            world += wire(name, FIRST_X + i * SPAN, FIRST_X + (i + 1) * SPAN, y, WIRE_Z)
     out = Path(__file__).resolve().parent.parent / "worlds" / "powerline_generated.wbt"
     out.write_text(world, encoding="utf-8")
     print("Wrote", out)
