@@ -19,9 +19,11 @@ WorldInfo {
   }
 }
 Viewpoint {
-  orientation 0 0 1 1.5708
-  position 25 -70 12
+  orientation 0 1 0 0.3
+  position -10 0 6
   near 0.2
+  follow "Mavic 2 PRO"
+  followSmoothness 0.2
 }
 TexturedBackground {
   luminosity 3
@@ -37,7 +39,7 @@ Floor {
 Mavic2Pro {
   translation 0 0 0.1
   rotation 0 0 1 0
-  controller "uav_hover"
+    controller "uav_waypoint"
   cameraSlot [
     Camera {
       width 400
