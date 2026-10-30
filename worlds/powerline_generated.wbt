@@ -80,6 +80,453 @@ Solid {
   ]
 }
 Solid {
+  name "insulator_t1_p1"
+  children [
+    Pose {
+      translation 10.000 -3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 -3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t1_p2"
+  children [
+    Pose {
+      translation 10.000 0.000 20.750
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 20.094
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 20.281
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 20.469
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 20.656
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 20.844
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 21.031
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 21.219
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 0.000 21.406
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t1_p3"
+  children [
+    Pose {
+      translation 10.000 3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 10.000 3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
   translation 50.00 0.00 0
   name "tower_2"
   children [
@@ -109,6 +556,453 @@ Solid {
           }
           geometry Box {
             size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t2_p1"
+  children [
+    Pose {
+      translation 50.000 -3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 -3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t2_p2"
+  children [
+    Pose {
+      translation 50.000 0.000 20.750
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 20.094
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 20.281
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 20.469
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 20.656
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 20.844
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 21.031
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 21.219
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 0.000 21.406
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t2_p3"
+  children [
+    Pose {
+      translation 50.000 3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 50.000 3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
           }
         }
       ]
@@ -152,6 +1046,453 @@ Solid {
   ]
 }
 Solid {
+  name "insulator_t3_p1"
+  children [
+    Pose {
+      translation 90.000 -3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 -3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t3_p2"
+  children [
+    Pose {
+      translation 90.000 0.000 20.750
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 20.094
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 20.281
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 20.469
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 20.656
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 20.844
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 21.031
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 21.219
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 0.000 21.406
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t3_p3"
+  children [
+    Pose {
+      translation 90.000 3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 90.000 3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
   translation 130.00 0.00 0
   name "tower_4"
   children [
@@ -181,6 +1522,453 @@ Solid {
           }
           geometry Box {
             size 0.40 6.00 0.40
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t4_p1"
+  children [
+    Pose {
+      translation 130.000 -3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 -3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t4_p2"
+  children [
+    Pose {
+      translation 130.000 0.000 20.750
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 20.094
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 20.281
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 20.469
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 20.656
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 20.844
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 21.031
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 21.219
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 0.000 21.406
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t4_p3"
+  children [
+    Pose {
+      translation 130.000 3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 130.000 3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
           }
         }
       ]
@@ -224,10 +2012,457 @@ Solid {
   ]
 }
 Solid {
+  name "insulator_t5_p1"
+  children [
+    Pose {
+      translation 170.000 -3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 -3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t5_p2"
+  children [
+    Pose {
+      translation 170.000 0.000 20.750
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 20.094
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 20.281
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 20.469
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 20.656
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 20.844
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 21.031
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 21.219
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 0.000 21.406
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
+  name "insulator_t5_p3"
+  children [
+    Pose {
+      translation 170.000 3.000 18.050
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.35 0.25 0.15
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 1.500
+            radius 0.050
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 18.706
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 18.519
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 18.331
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 18.144
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 17.956
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 17.769
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 17.581
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+    Pose {
+      translation 170.000 3.000 17.394
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.8 0.7 0.5
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.060
+            radius 0.220
+          }
+        }
+      ]
+    }
+  ]
+}
+Solid {
   name "wire_span1_phase1"
   children [
     Pose {
-      translation 11.667 -3.000 18.494
+      translation 11.667 -3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -243,7 +2478,7 @@ Solid {
       ]
     }
     Pose {
-      translation 15.000 -3.000 17.939
+      translation 15.000 -3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -259,7 +2494,7 @@ Solid {
       ]
     }
     Pose {
-      translation 18.333 -3.000 17.494
+      translation 18.333 -3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -275,7 +2510,7 @@ Solid {
       ]
     }
     Pose {
-      translation 21.667 -3.000 17.161
+      translation 21.667 -3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -291,7 +2526,7 @@ Solid {
       ]
     }
     Pose {
-      translation 25.000 -3.000 16.939
+      translation 25.000 -3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -307,7 +2542,7 @@ Solid {
       ]
     }
     Pose {
-      translation 28.333 -3.000 16.828
+      translation 28.333 -3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -323,7 +2558,7 @@ Solid {
       ]
     }
     Pose {
-      translation 31.667 -3.000 16.828
+      translation 31.667 -3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -339,7 +2574,7 @@ Solid {
       ]
     }
     Pose {
-      translation 35.000 -3.000 16.939
+      translation 35.000 -3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -355,7 +2590,7 @@ Solid {
       ]
     }
     Pose {
-      translation 38.333 -3.000 17.161
+      translation 38.333 -3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -371,7 +2606,7 @@ Solid {
       ]
     }
     Pose {
-      translation 41.667 -3.000 17.494
+      translation 41.667 -3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -387,7 +2622,7 @@ Solid {
       ]
     }
     Pose {
-      translation 45.000 -3.000 17.939
+      translation 45.000 -3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -403,7 +2638,7 @@ Solid {
       ]
     }
     Pose {
-      translation 48.333 -3.000 18.494
+      translation 48.333 -3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -424,7 +2659,7 @@ Solid {
   name "wire_span1_phase2"
   children [
     Pose {
-      translation 11.667 0.000 18.494
+      translation 11.667 0.000 21.194
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -440,7 +2675,7 @@ Solid {
       ]
     }
     Pose {
-      translation 15.000 0.000 17.939
+      translation 15.000 0.000 20.639
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -456,7 +2691,7 @@ Solid {
       ]
     }
     Pose {
-      translation 18.333 0.000 17.494
+      translation 18.333 0.000 20.194
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -472,7 +2707,7 @@ Solid {
       ]
     }
     Pose {
-      translation 21.667 0.000 17.161
+      translation 21.667 0.000 19.861
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -488,7 +2723,7 @@ Solid {
       ]
     }
     Pose {
-      translation 25.000 0.000 16.939
+      translation 25.000 0.000 19.639
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -504,7 +2739,7 @@ Solid {
       ]
     }
     Pose {
-      translation 28.333 0.000 16.828
+      translation 28.333 0.000 19.528
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -520,7 +2755,7 @@ Solid {
       ]
     }
     Pose {
-      translation 31.667 0.000 16.828
+      translation 31.667 0.000 19.528
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -536,7 +2771,7 @@ Solid {
       ]
     }
     Pose {
-      translation 35.000 0.000 16.939
+      translation 35.000 0.000 19.639
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -552,7 +2787,7 @@ Solid {
       ]
     }
     Pose {
-      translation 38.333 0.000 17.161
+      translation 38.333 0.000 19.861
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -568,7 +2803,7 @@ Solid {
       ]
     }
     Pose {
-      translation 41.667 0.000 17.494
+      translation 41.667 0.000 20.194
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -584,7 +2819,7 @@ Solid {
       ]
     }
     Pose {
-      translation 45.000 0.000 17.939
+      translation 45.000 0.000 20.639
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -600,7 +2835,7 @@ Solid {
       ]
     }
     Pose {
-      translation 48.333 0.000 18.494
+      translation 48.333 0.000 21.194
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -621,7 +2856,7 @@ Solid {
   name "wire_span1_phase3"
   children [
     Pose {
-      translation 11.667 3.000 18.494
+      translation 11.667 3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -637,7 +2872,7 @@ Solid {
       ]
     }
     Pose {
-      translation 15.000 3.000 17.939
+      translation 15.000 3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -653,7 +2888,7 @@ Solid {
       ]
     }
     Pose {
-      translation 18.333 3.000 17.494
+      translation 18.333 3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -669,7 +2904,7 @@ Solid {
       ]
     }
     Pose {
-      translation 21.667 3.000 17.161
+      translation 21.667 3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -685,7 +2920,7 @@ Solid {
       ]
     }
     Pose {
-      translation 25.000 3.000 16.939
+      translation 25.000 3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -701,7 +2936,7 @@ Solid {
       ]
     }
     Pose {
-      translation 28.333 3.000 16.828
+      translation 28.333 3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -717,7 +2952,7 @@ Solid {
       ]
     }
     Pose {
-      translation 31.667 3.000 16.828
+      translation 31.667 3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -733,7 +2968,7 @@ Solid {
       ]
     }
     Pose {
-      translation 35.000 3.000 16.939
+      translation 35.000 3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -749,7 +2984,7 @@ Solid {
       ]
     }
     Pose {
-      translation 38.333 3.000 17.161
+      translation 38.333 3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -765,7 +3000,7 @@ Solid {
       ]
     }
     Pose {
-      translation 41.667 3.000 17.494
+      translation 41.667 3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -781,7 +3016,7 @@ Solid {
       ]
     }
     Pose {
-      translation 45.000 3.000 17.939
+      translation 45.000 3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -797,7 +3032,7 @@ Solid {
       ]
     }
     Pose {
-      translation 48.333 3.000 18.494
+      translation 48.333 3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -818,7 +3053,7 @@ Solid {
   name "wire_span2_phase1"
   children [
     Pose {
-      translation 51.667 -3.000 18.494
+      translation 51.667 -3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -834,7 +3069,7 @@ Solid {
       ]
     }
     Pose {
-      translation 55.000 -3.000 17.939
+      translation 55.000 -3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -850,7 +3085,7 @@ Solid {
       ]
     }
     Pose {
-      translation 58.333 -3.000 17.494
+      translation 58.333 -3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -866,7 +3101,7 @@ Solid {
       ]
     }
     Pose {
-      translation 61.667 -3.000 17.161
+      translation 61.667 -3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -882,7 +3117,7 @@ Solid {
       ]
     }
     Pose {
-      translation 65.000 -3.000 16.939
+      translation 65.000 -3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -898,7 +3133,7 @@ Solid {
       ]
     }
     Pose {
-      translation 68.333 -3.000 16.828
+      translation 68.333 -3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -914,7 +3149,7 @@ Solid {
       ]
     }
     Pose {
-      translation 71.667 -3.000 16.828
+      translation 71.667 -3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -930,7 +3165,7 @@ Solid {
       ]
     }
     Pose {
-      translation 75.000 -3.000 16.939
+      translation 75.000 -3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -946,7 +3181,7 @@ Solid {
       ]
     }
     Pose {
-      translation 78.333 -3.000 17.161
+      translation 78.333 -3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -962,7 +3197,7 @@ Solid {
       ]
     }
     Pose {
-      translation 81.667 -3.000 17.494
+      translation 81.667 -3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -978,7 +3213,7 @@ Solid {
       ]
     }
     Pose {
-      translation 85.000 -3.000 17.939
+      translation 85.000 -3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -994,7 +3229,7 @@ Solid {
       ]
     }
     Pose {
-      translation 88.333 -3.000 18.494
+      translation 88.333 -3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -1015,7 +3250,7 @@ Solid {
   name "wire_span2_phase2"
   children [
     Pose {
-      translation 51.667 0.000 18.494
+      translation 51.667 0.000 21.194
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -1031,7 +3266,7 @@ Solid {
       ]
     }
     Pose {
-      translation 55.000 0.000 17.939
+      translation 55.000 0.000 20.639
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -1047,7 +3282,7 @@ Solid {
       ]
     }
     Pose {
-      translation 58.333 0.000 17.494
+      translation 58.333 0.000 20.194
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -1063,7 +3298,7 @@ Solid {
       ]
     }
     Pose {
-      translation 61.667 0.000 17.161
+      translation 61.667 0.000 19.861
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -1079,7 +3314,7 @@ Solid {
       ]
     }
     Pose {
-      translation 65.000 0.000 16.939
+      translation 65.000 0.000 19.639
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -1095,7 +3330,7 @@ Solid {
       ]
     }
     Pose {
-      translation 68.333 0.000 16.828
+      translation 68.333 0.000 19.528
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -1111,7 +3346,7 @@ Solid {
       ]
     }
     Pose {
-      translation 71.667 0.000 16.828
+      translation 71.667 0.000 19.528
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -1127,7 +3362,7 @@ Solid {
       ]
     }
     Pose {
-      translation 75.000 0.000 16.939
+      translation 75.000 0.000 19.639
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -1143,7 +3378,7 @@ Solid {
       ]
     }
     Pose {
-      translation 78.333 0.000 17.161
+      translation 78.333 0.000 19.861
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -1159,7 +3394,7 @@ Solid {
       ]
     }
     Pose {
-      translation 81.667 0.000 17.494
+      translation 81.667 0.000 20.194
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -1175,7 +3410,7 @@ Solid {
       ]
     }
     Pose {
-      translation 85.000 0.000 17.939
+      translation 85.000 0.000 20.639
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -1191,7 +3426,7 @@ Solid {
       ]
     }
     Pose {
-      translation 88.333 0.000 18.494
+      translation 88.333 0.000 21.194
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -1212,7 +3447,7 @@ Solid {
   name "wire_span2_phase3"
   children [
     Pose {
-      translation 51.667 3.000 18.494
+      translation 51.667 3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -1228,7 +3463,7 @@ Solid {
       ]
     }
     Pose {
-      translation 55.000 3.000 17.939
+      translation 55.000 3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -1244,7 +3479,7 @@ Solid {
       ]
     }
     Pose {
-      translation 58.333 3.000 17.494
+      translation 58.333 3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -1260,7 +3495,7 @@ Solid {
       ]
     }
     Pose {
-      translation 61.667 3.000 17.161
+      translation 61.667 3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -1276,7 +3511,7 @@ Solid {
       ]
     }
     Pose {
-      translation 65.000 3.000 16.939
+      translation 65.000 3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -1292,7 +3527,7 @@ Solid {
       ]
     }
     Pose {
-      translation 68.333 3.000 16.828
+      translation 68.333 3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -1308,7 +3543,7 @@ Solid {
       ]
     }
     Pose {
-      translation 71.667 3.000 16.828
+      translation 71.667 3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -1324,7 +3559,7 @@ Solid {
       ]
     }
     Pose {
-      translation 75.000 3.000 16.939
+      translation 75.000 3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -1340,7 +3575,7 @@ Solid {
       ]
     }
     Pose {
-      translation 78.333 3.000 17.161
+      translation 78.333 3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -1356,7 +3591,7 @@ Solid {
       ]
     }
     Pose {
-      translation 81.667 3.000 17.494
+      translation 81.667 3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -1372,7 +3607,7 @@ Solid {
       ]
     }
     Pose {
-      translation 85.000 3.000 17.939
+      translation 85.000 3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -1388,7 +3623,7 @@ Solid {
       ]
     }
     Pose {
-      translation 88.333 3.000 18.494
+      translation 88.333 3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -1409,7 +3644,7 @@ Solid {
   name "wire_span3_phase1"
   children [
     Pose {
-      translation 91.667 -3.000 18.494
+      translation 91.667 -3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -1425,7 +3660,7 @@ Solid {
       ]
     }
     Pose {
-      translation 95.000 -3.000 17.939
+      translation 95.000 -3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -1441,7 +3676,7 @@ Solid {
       ]
     }
     Pose {
-      translation 98.333 -3.000 17.494
+      translation 98.333 -3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -1457,7 +3692,7 @@ Solid {
       ]
     }
     Pose {
-      translation 101.667 -3.000 17.161
+      translation 101.667 -3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -1473,7 +3708,7 @@ Solid {
       ]
     }
     Pose {
-      translation 105.000 -3.000 16.939
+      translation 105.000 -3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -1489,7 +3724,7 @@ Solid {
       ]
     }
     Pose {
-      translation 108.333 -3.000 16.828
+      translation 108.333 -3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -1505,7 +3740,7 @@ Solid {
       ]
     }
     Pose {
-      translation 111.667 -3.000 16.828
+      translation 111.667 -3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -1521,7 +3756,7 @@ Solid {
       ]
     }
     Pose {
-      translation 115.000 -3.000 16.939
+      translation 115.000 -3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -1537,7 +3772,7 @@ Solid {
       ]
     }
     Pose {
-      translation 118.333 -3.000 17.161
+      translation 118.333 -3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -1553,7 +3788,7 @@ Solid {
       ]
     }
     Pose {
-      translation 121.667 -3.000 17.494
+      translation 121.667 -3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -1569,7 +3804,7 @@ Solid {
       ]
     }
     Pose {
-      translation 125.000 -3.000 17.939
+      translation 125.000 -3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -1585,7 +3820,7 @@ Solid {
       ]
     }
     Pose {
-      translation 128.333 -3.000 18.494
+      translation 128.333 -3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -1606,7 +3841,7 @@ Solid {
   name "wire_span3_phase2"
   children [
     Pose {
-      translation 91.667 0.000 18.494
+      translation 91.667 0.000 21.194
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -1622,7 +3857,7 @@ Solid {
       ]
     }
     Pose {
-      translation 95.000 0.000 17.939
+      translation 95.000 0.000 20.639
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -1638,7 +3873,7 @@ Solid {
       ]
     }
     Pose {
-      translation 98.333 0.000 17.494
+      translation 98.333 0.000 20.194
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -1654,7 +3889,7 @@ Solid {
       ]
     }
     Pose {
-      translation 101.667 0.000 17.161
+      translation 101.667 0.000 19.861
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -1670,7 +3905,7 @@ Solid {
       ]
     }
     Pose {
-      translation 105.000 0.000 16.939
+      translation 105.000 0.000 19.639
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -1686,7 +3921,7 @@ Solid {
       ]
     }
     Pose {
-      translation 108.333 0.000 16.828
+      translation 108.333 0.000 19.528
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -1702,7 +3937,7 @@ Solid {
       ]
     }
     Pose {
-      translation 111.667 0.000 16.828
+      translation 111.667 0.000 19.528
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -1718,7 +3953,7 @@ Solid {
       ]
     }
     Pose {
-      translation 115.000 0.000 16.939
+      translation 115.000 0.000 19.639
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -1734,7 +3969,7 @@ Solid {
       ]
     }
     Pose {
-      translation 118.333 0.000 17.161
+      translation 118.333 0.000 19.861
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -1750,7 +3985,7 @@ Solid {
       ]
     }
     Pose {
-      translation 121.667 0.000 17.494
+      translation 121.667 0.000 20.194
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -1766,7 +4001,7 @@ Solid {
       ]
     }
     Pose {
-      translation 125.000 0.000 17.939
+      translation 125.000 0.000 20.639
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -1782,7 +4017,7 @@ Solid {
       ]
     }
     Pose {
-      translation 128.333 0.000 18.494
+      translation 128.333 0.000 21.194
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -1803,7 +4038,7 @@ Solid {
   name "wire_span3_phase3"
   children [
     Pose {
-      translation 91.667 3.000 18.494
+      translation 91.667 3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -1819,7 +4054,7 @@ Solid {
       ]
     }
     Pose {
-      translation 95.000 3.000 17.939
+      translation 95.000 3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -1835,7 +4070,7 @@ Solid {
       ]
     }
     Pose {
-      translation 98.333 3.000 17.494
+      translation 98.333 3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -1851,7 +4086,7 @@ Solid {
       ]
     }
     Pose {
-      translation 101.667 3.000 17.161
+      translation 101.667 3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -1867,7 +4102,7 @@ Solid {
       ]
     }
     Pose {
-      translation 105.000 3.000 16.939
+      translation 105.000 3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -1883,7 +4118,7 @@ Solid {
       ]
     }
     Pose {
-      translation 108.333 3.000 16.828
+      translation 108.333 3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -1899,7 +4134,7 @@ Solid {
       ]
     }
     Pose {
-      translation 111.667 3.000 16.828
+      translation 111.667 3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -1915,7 +4150,7 @@ Solid {
       ]
     }
     Pose {
-      translation 115.000 3.000 16.939
+      translation 115.000 3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -1931,7 +4166,7 @@ Solid {
       ]
     }
     Pose {
-      translation 118.333 3.000 17.161
+      translation 118.333 3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -1947,7 +4182,7 @@ Solid {
       ]
     }
     Pose {
-      translation 121.667 3.000 17.494
+      translation 121.667 3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -1963,7 +4198,7 @@ Solid {
       ]
     }
     Pose {
-      translation 125.000 3.000 17.939
+      translation 125.000 3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -1979,7 +4214,7 @@ Solid {
       ]
     }
     Pose {
-      translation 128.333 3.000 18.494
+      translation 128.333 3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -2000,7 +4235,7 @@ Solid {
   name "wire_span4_phase1"
   children [
     Pose {
-      translation 131.667 -3.000 18.494
+      translation 131.667 -3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -2016,7 +4251,7 @@ Solid {
       ]
     }
     Pose {
-      translation 135.000 -3.000 17.939
+      translation 135.000 -3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -2032,7 +4267,7 @@ Solid {
       ]
     }
     Pose {
-      translation 138.333 -3.000 17.494
+      translation 138.333 -3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -2048,7 +4283,7 @@ Solid {
       ]
     }
     Pose {
-      translation 141.667 -3.000 17.161
+      translation 141.667 -3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -2064,7 +4299,7 @@ Solid {
       ]
     }
     Pose {
-      translation 145.000 -3.000 16.939
+      translation 145.000 -3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -2080,7 +4315,7 @@ Solid {
       ]
     }
     Pose {
-      translation 148.333 -3.000 16.828
+      translation 148.333 -3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -2096,7 +4331,7 @@ Solid {
       ]
     }
     Pose {
-      translation 151.667 -3.000 16.828
+      translation 151.667 -3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -2112,7 +4347,7 @@ Solid {
       ]
     }
     Pose {
-      translation 155.000 -3.000 16.939
+      translation 155.000 -3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -2128,7 +4363,7 @@ Solid {
       ]
     }
     Pose {
-      translation 158.333 -3.000 17.161
+      translation 158.333 -3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -2144,7 +4379,7 @@ Solid {
       ]
     }
     Pose {
-      translation 161.667 -3.000 17.494
+      translation 161.667 -3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -2160,7 +4395,7 @@ Solid {
       ]
     }
     Pose {
-      translation 165.000 -3.000 17.939
+      translation 165.000 -3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -2176,7 +4411,7 @@ Solid {
       ]
     }
     Pose {
-      translation 168.333 -3.000 18.494
+      translation 168.333 -3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -2197,7 +4432,7 @@ Solid {
   name "wire_span4_phase2"
   children [
     Pose {
-      translation 131.667 0.000 18.494
+      translation 131.667 0.000 21.194
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -2213,7 +4448,7 @@ Solid {
       ]
     }
     Pose {
-      translation 135.000 0.000 17.939
+      translation 135.000 0.000 20.639
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -2229,7 +4464,7 @@ Solid {
       ]
     }
     Pose {
-      translation 138.333 0.000 17.494
+      translation 138.333 0.000 20.194
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -2245,7 +4480,7 @@ Solid {
       ]
     }
     Pose {
-      translation 141.667 0.000 17.161
+      translation 141.667 0.000 19.861
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -2261,7 +4496,7 @@ Solid {
       ]
     }
     Pose {
-      translation 145.000 0.000 16.939
+      translation 145.000 0.000 19.639
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -2277,7 +4512,7 @@ Solid {
       ]
     }
     Pose {
-      translation 148.333 0.000 16.828
+      translation 148.333 0.000 19.528
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -2293,7 +4528,7 @@ Solid {
       ]
     }
     Pose {
-      translation 151.667 0.000 16.828
+      translation 151.667 0.000 19.528
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -2309,7 +4544,7 @@ Solid {
       ]
     }
     Pose {
-      translation 155.000 0.000 16.939
+      translation 155.000 0.000 19.639
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -2325,7 +4560,7 @@ Solid {
       ]
     }
     Pose {
-      translation 158.333 0.000 17.161
+      translation 158.333 0.000 19.861
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -2341,7 +4576,7 @@ Solid {
       ]
     }
     Pose {
-      translation 161.667 0.000 17.494
+      translation 161.667 0.000 20.194
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -2357,7 +4592,7 @@ Solid {
       ]
     }
     Pose {
-      translation 165.000 0.000 17.939
+      translation 165.000 0.000 20.639
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -2373,7 +4608,7 @@ Solid {
       ]
     }
     Pose {
-      translation 168.333 0.000 18.494
+      translation 168.333 0.000 21.194
       rotation 0 1 0 -0.1813
       children [
         Shape {
@@ -2394,7 +4629,7 @@ Solid {
   name "wire_span4_phase3"
   children [
     Pose {
-      translation 131.667 3.000 18.494
+      translation 131.667 3.000 16.994
       rotation 0 1 0 0.1813
       children [
         Shape {
@@ -2410,7 +4645,7 @@ Solid {
       ]
     }
     Pose {
-      translation 135.000 3.000 17.939
+      translation 135.000 3.000 16.439
       rotation 0 1 0 0.1489
       children [
         Shape {
@@ -2426,7 +4661,7 @@ Solid {
       ]
     }
     Pose {
-      translation 138.333 3.000 17.494
+      translation 138.333 3.000 15.994
       rotation 0 1 0 0.1161
       children [
         Shape {
@@ -2442,7 +4677,7 @@ Solid {
       ]
     }
     Pose {
-      translation 141.667 3.000 17.161
+      translation 141.667 3.000 15.661
       rotation 0 1 0 0.0831
       children [
         Shape {
@@ -2458,7 +4693,7 @@ Solid {
       ]
     }
     Pose {
-      translation 145.000 3.000 16.939
+      translation 145.000 3.000 15.439
       rotation 0 1 0 0.0500
       children [
         Shape {
@@ -2474,7 +4709,7 @@ Solid {
       ]
     }
     Pose {
-      translation 148.333 3.000 16.828
+      translation 148.333 3.000 15.328
       rotation 0 1 0 0.0167
       children [
         Shape {
@@ -2490,7 +4725,7 @@ Solid {
       ]
     }
     Pose {
-      translation 151.667 3.000 16.828
+      translation 151.667 3.000 15.328
       rotation 0 1 0 -0.0167
       children [
         Shape {
@@ -2506,7 +4741,7 @@ Solid {
       ]
     }
     Pose {
-      translation 155.000 3.000 16.939
+      translation 155.000 3.000 15.439
       rotation 0 1 0 -0.0500
       children [
         Shape {
@@ -2522,7 +4757,7 @@ Solid {
       ]
     }
     Pose {
-      translation 158.333 3.000 17.161
+      translation 158.333 3.000 15.661
       rotation 0 1 0 -0.0831
       children [
         Shape {
@@ -2538,7 +4773,7 @@ Solid {
       ]
     }
     Pose {
-      translation 161.667 3.000 17.494
+      translation 161.667 3.000 15.994
       rotation 0 1 0 -0.1161
       children [
         Shape {
@@ -2554,7 +4789,7 @@ Solid {
       ]
     }
     Pose {
-      translation 165.000 3.000 17.939
+      translation 165.000 3.000 16.439
       rotation 0 1 0 -0.1489
       children [
         Shape {
@@ -2570,7 +4805,7 @@ Solid {
       ]
     }
     Pose {
-      translation 168.333 3.000 18.494
+      translation 168.333 3.000 16.994
       rotation 0 1 0 -0.1813
       children [
         Shape {

@@ -81,9 +81,43 @@ def tower(name, x, y, height=20.0, arm=6.0):
 NUM_TOWERS = 5      # how many towers in the line
 SPAN = 40.0         # metres between towers
 FIRST_X = 10.0      # where the first tower stands
-WIRE_Z = 18.8       # height where wires attach, just under the crossarm
-PHASE_Y = [-3.0, 0.0, 3.0]   # sideways position of the 3 wires
 SAG = 2.0           # how far each wire hangs down in the middle (metres)
+ARM_UNDER = 18.8    # underside of the crossarm
+POST_TOP = 20.0     # top of the tower post
+INS_LEN = 1.5       # length of each insulator string (metres)
+INS_DISCS = 8       # number of discs in each string
+# (sideways position, direction): -1 = hangs down, +1 = stands up
+PHASES = [(-3.0, -1), (0.0, 1), (3.0, -1)]
+
+
+def cylinder(x, y, z, height, radius, color):
+    """One upright cylinder centred at (x, y, z)."""
+    return """    Pose {
+      translation %.3f %.3f %.3f
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor %s
+            roughness 0.6
+            metalness 0
+          }
+          geometry Cylinder {
+            height %.3f
+            radius %.3f
+          }
+        }
+      ]
+    }
+""" % (x, y, z, color, height, radius)
+
+
+def insulator(name, x, y, z0, direction):
+    """A string of ceramic discs starting at z0, hanging down (-1) or standing up (+1)."""
+    parts = cylinder(x, y, z0 + direction * INS_LEN / 2, INS_LEN, 0.05, "0.35 0.25 0.15")
+    for k in range(INS_DISCS):
+        z = z0 + direction * INS_LEN * (k + 0.5) / INS_DISCS
+        parts += cylinder(x, y, z, 0.06, 0.22, "0.8 0.7 0.5")
+    return 'Solid {\n  name "%s"\n  children [\n%s  ]\n}\n' % (name, parts)
 
 
 def wire(name, x1, x2, y, z, sag=SAG, segments=12):
@@ -121,11 +155,17 @@ def wire(name, x1, x2, y, z, sag=SAG, segments=12):
 def main():
     world = HEADER
     for i in range(NUM_TOWERS):
-        world += tower("tower_%d" % (i + 1), FIRST_X + i * SPAN, 0)
+        tx = FIRST_X + i * SPAN
+        world += tower("tower_%d" % (i + 1), tx, 0)
+        for j, (y, d) in enumerate(PHASES):
+            z0 = POST_TOP if d > 0 else ARM_UNDER
+            world += insulator("insulator_t%d_p%d" % (i + 1, j + 1), tx, y, z0, d)
     for i in range(NUM_TOWERS - 1):
-        for j, y in enumerate(PHASE_Y):
+        for j, (y, d) in enumerate(PHASES):
+            z0 = POST_TOP if d > 0 else ARM_UNDER
+            wire_z = z0 + d * INS_LEN
             name = "wire_span%d_phase%d" % (i + 1, j + 1)
-            world += wire(name, FIRST_X + i * SPAN, FIRST_X + (i + 1) * SPAN, y, WIRE_Z)
+            world += wire(name, FIRST_X + i * SPAN, FIRST_X + (i + 1) * SPAN, y, wire_z)
     out = Path(__file__).resolve().parent.parent / "worlds" / "powerline_generated.wbt"
     out.write_text(world, encoding="utf-8")
     print("Wrote", out)
